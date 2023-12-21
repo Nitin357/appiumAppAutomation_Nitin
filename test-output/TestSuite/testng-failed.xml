@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="app" value="admin"/>
+  <parameter name="RunOn" value="local"/>
+  <parameter name="accessToken_For" value="microservices"/>
+  <parameter name="RabitMq" value="YES"/>
+  <listeners>
+    <listener class-name="org.testng.TestListenerAdapter"/>
+  </listeners>
+  <test thread-count="5" name="Module(failed)">
+    <classes>
+      <class name="com.quantela.codenet.qa.qpf_wallet_mob_ui_test.InternalUserTest">
+        <methods>
+          <include name="internalLogin"/>
+          <include name="driverQuit"/>
+          <include name="AndroidDriverConfig"/>
+        </methods>
+      </class> <!-- com.quantela.codenet.qa.qpf_wallet_mob_ui_test.InternalUserTest -->
+    </classes>
+  </test> <!-- Module(failed) -->
+  <test thread-count="5" name="Module2(failed)">
+    <classes>
+      <class name="com.quantela.codenet.qa.qpf_wallet_mob_ui_test.AddFundTest">
+        <methods>
+          <include name="addFundInvalidAmount"/>
+          <include name="amountaddFundecVal"/>
+          <include name="addFund"/>
+          <include name="invalidAmountaddFundNegval"/>
+          <include name="driverQuit"/>
+          <include name="invalidAmountaddFundGreThan10k"/>
+          <include name="AndroidDriverConfig"/>
+        </methods>
+      </class> <!-- com.quantela.codenet.qa.qpf_wallet_mob_ui_test.AddFundTest -->
+    </classes>
+  </test> <!-- Module2(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

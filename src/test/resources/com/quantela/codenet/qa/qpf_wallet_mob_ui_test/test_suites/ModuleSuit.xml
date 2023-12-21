@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TransferFundSuite" >
+	
+	
+	<listeners>
+		<listener class-name="com.quantela.codenet.qa.qpf_wallet_mob_ui_test.listeners.Listeners">
+			
+		
+		</listener>
+		</listeners>
+		
+		
+		
+	<test name="Module">
+		
+		<classes>
+			<class name="com.quantela.codenet.qa.qpf_wallet_mob_ui_test.TransferFundTest">
+				<methods>
+					<include name="transferFund"></include>
+					<include name="autoDisplayPayeeName"></include>
+					<include name="validateNegativeAmount"></include>
+					<include name="validateTwoDecimalAmount"></include>
+					</methods>
+				
+			</class>
+			
+		</classes>
+		
+		
+	</test>
+	
+</suite> 
+

@@ -1,0 +1,62 @@
+{
+	"addFund":{
+		"amount":"5000"
+		
+	},
+	
+	"invalidAmountaddFundLessThan10":{
+		"payeeTo":"8269975470",
+		"amount":"9"
+},
+"invalidAmountaddFundGreThan10k":{
+	"payeeTo":"8269975470",
+	"amount":"10001"
+},
+"invalidAmountaddFundNegval":{
+	"payeeTo":"8269975470",
+	"amount":"-15"
+},
+"amountaddFundecVal3":{
+	"payeeTo":"8269975470",
+	"amount":"1500.233"
+},
+
+	"amountaddFundecVal2":{
+			"payeeTo":"8269975470",
+	"amount":"1500.23"
+	
+},
+"zeroAmount":{
+	"payeeTo":"8269975470",
+	"amount":"0"
+	
+},
+"alphabetAmount":{
+	"payeeTo":"8269975470",
+	"amount":"Amou&^^"
+},
+
+"citizenLogin": {
+    "userName": "8121574013",
+    "password": "Qatest@123",
+    "role": "citizen"
+  },
+  "internalLogin": {
+    "userName": "8269975470",
+    "password": "Qaz@1234",
+    "role": "internal"
+  },
+  "fundTransfer":{
+	  "payeeTo":"8269975470",
+	  "amount":"500"
+	  
+	  }
+		  
+		  
+	  
+	  
+ 
+
+
+
+}
